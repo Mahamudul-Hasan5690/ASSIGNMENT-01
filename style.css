@@ -1,13 +1,60 @@
+* {
+    margin: 0;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
 
 .inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .arimo {
-  font-family: "Arimo", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.width {
+    max-width: 1551px;
+    margin: 0 auto;
+}
+
+.btn-01 {
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 41.5px;
+    background-color: #1D4ED8;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+/* nav section styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35.5px 0px;
+}
+
+.nav-links-container {
+    display: flex;
+    gap: 24px;
+}
+
+.nav-links-container > li {
+    list-style: none;
+}
+.nav-links-container > li > a {
+    text-decoration: none;
+    color: #575757;
+    font-weight: 500;
 }
