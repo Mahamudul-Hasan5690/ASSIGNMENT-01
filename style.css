@@ -31,6 +31,10 @@
     border-radius: 10px;
 }
 
+.btn-02 {
+    padding: 25px 65.5px;
+    font-size: 24px;
+}
 
 
 
@@ -43,6 +47,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 35.5px 0px;
+    width: 1320px;
+    margin: auto;
 }
 
 .nav-links-container {
@@ -50,11 +56,41 @@ nav {
     gap: 24px;
 }
 
-.nav-links-container > li {
+.nav-links-container>li {
     list-style: none;
 }
-.nav-links-container > li > a {
+
+.nav-links-container>li>a {
     text-decoration: none;
     color: #575757;
     font-weight: 500;
+}
+
+
+
+
+.hero-container {
+    background:
+    url("./assets/banner.jpg");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-title {
+    font-weight: bold;
+    color: white;
+    font-size: 80px;
+    padding: 136px 0px 16px 0px;
+}
+
+.hero-description {
+    font-size: 22px;
+    color: white;
+    padding-bottom: 278px;
+}
+
+.hero-btn-container {
+    padding-bottom: 76px;
 }
