@@ -34,11 +34,13 @@
     padding: 12px 41.5px;
     background-color: #1D4ED8;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .btn-02 {
     padding: 25px 65.5px;
     font-size: 24px;
+    cursor: pointer;
 }
 
 .btn-03 {
@@ -49,6 +51,7 @@
     padding: 12px 106px;
     background-color: transparent;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .btn-04 {
@@ -59,6 +62,7 @@
     padding: 12px 126px;
     background-color: #1D4ED8;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .btn-05 {
@@ -69,6 +73,7 @@
     padding: 12px 113px;
     background-color: transparent;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 
