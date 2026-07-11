@@ -109,6 +109,10 @@ nav {
 
 .hero-container {
     background:
+    linear-gradient(
+            rgba(15, 23, 42, 0.7),
+            rgba(0, 0, 0, 0)
+        ),
         url("./assets/banner.jpg");
     text-align: center;
     background-size: cover;
@@ -286,6 +290,85 @@ nav {
 
 
 
+
+/* FAQ style */
+/* FAQ Section */
+
+.faq-section{
+    padding: 40px 0;
+    background-color: #F8F9FA;
+}
+
+.faq-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0D1B2A;
+    text-align: center;
+}
+
+.intro {
+     color: #575757;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+
+.faq-item{
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 22px 24px;
+    transition: .3s ease;
+}
+
+.faq-item:hover{
+    border-color: #2563EB;
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.10);
+}
+
+.faq-item summary{
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1B2A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-item summary::-webkit-details-marker{
+    display: none;
+}
+
+.faq-item summary::after{
+    content: "+";
+    color: #2563EB;
+    font-size: 28px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.faq-item[open] summary::after{
+    content: "−";
+}
+
+.faq-item p{
+    margin-top: 18px;
+    color: #575757;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+
+
+
+
+
+
+/* footer style */
 
 footer {
     background-color: #0D1B2A;
