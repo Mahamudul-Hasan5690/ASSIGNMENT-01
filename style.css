@@ -114,10 +114,8 @@ nav {
 
 .hero-container {
     background:
-    linear-gradient(
-            rgba(15, 23, 42, 0.7),
-            rgba(0, 0, 0, 0)
-        ),
+        linear-gradient(rgba(15, 23, 42, 0.7),
+            rgba(0, 0, 0, 0)),
         url("./assets/banner.jpg");
     text-align: center;
     background-size: cover;
@@ -299,7 +297,7 @@ nav {
 /* FAQ style */
 /* FAQ Section */
 
-.faq-section{
+.faq-section {
     padding: 40px 0;
     background-color: #F8F9FA;
 }
@@ -312,13 +310,13 @@ nav {
 }
 
 .intro {
-     color: #575757;
+    color: #575757;
     text-align: center;
     margin-top: 12px;
     margin-bottom: 40px;
 }
 
-.faq-item{
+.faq-item {
     background-color: #FFFFFF;
     border: 1px solid #E5E7EB;
     border-radius: 12px;
@@ -327,12 +325,12 @@ nav {
     transition: .3s ease;
 }
 
-.faq-item:hover{
+.faq-item:hover {
     border-color: #2563EB;
     box-shadow: 0 8px 20px rgba(37, 99, 235, 0.10);
 }
 
-.faq-item summary{
+.faq-item summary {
     list-style: none;
     cursor: pointer;
     font-size: 20px;
@@ -343,11 +341,11 @@ nav {
     align-items: center;
 }
 
-.faq-item summary::-webkit-details-marker{
+.faq-item summary::-webkit-details-marker {
     display: none;
 }
 
-.faq-item summary::after{
+.faq-item summary::after {
     content: "+";
     color: #2563EB;
     font-size: 28px;
@@ -355,11 +353,11 @@ nav {
     transition: .3s;
 }
 
-.faq-item[open] summary::after{
+.faq-item[open] summary::after {
     content: "−";
 }
 
-.faq-item p{
+.faq-item p {
     margin-top: 18px;
     color: #575757;
     font-size: 16px;
@@ -403,7 +401,7 @@ footer {
     color: #FFFFFF;
 }
 
-.footer-title >span {
+.footer-title>span {
     color: #2563EB;
 }
 
@@ -427,15 +425,15 @@ footer {
     gap: 20px;
 }
 
-.social-icon > li {
+.social-icon>li {
     list-style: none;
 }
 
-.social-icon >li > a {
+.social-icon>li>a {
     text-decoration: none;
 }
 
-.social-icon >li > a >i {
+.social-icon>li>a>i {
     font-size: 30px;
     border: 1px solid #FFFFFF80;
     padding: 8px 4px;
@@ -462,7 +460,7 @@ footer {
     padding-top: 10px;
 }
 
-.footer-links{
+.footer-links {
     padding-top: 20px;
     color: #FFFFFF;
     opacity: 60%;
@@ -473,7 +471,7 @@ footer {
 }
 
 
-.footer-links a{
+.footer-links a {
     text-decoration: none;
     color: #FFFFFF;
     opacity: 60%;
